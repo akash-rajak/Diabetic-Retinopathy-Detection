@@ -1,40 +1,38 @@
-## ✔ IMAGE ENCRYPTION DECRYPTION
-- An Image Encryption Decryption is an image processing application created in python with tkinter gui and OpenCv library.
-- In this application user can select an image and can encrypt that image to gray scale image and can even decrpyt also.
-- Also after encrypting and decrypting user can also save the edited image anywhere in the local system.
-- Also there is option to reset to the original image.
+## ✔ Diabetic Retinopathy Detection
+- A Diabetic Retinopathy Detection is a python based model for detection of Diabetic Retionpathy and its types.
+- In this application user needs to get the fundus images of the retina and using that user will be able to detect if patient has DR and its types(if DR is there).
 
 ****
 
 ### REQUIREMENTS :
 - python 3
-- os module
-- cv2 module
-- tkinter module
-- filedialog from tkinter
-- messagebox
-- from PIL import Image, ImageTk
+- skimage
+- sklearn
+- scipy
+- math
 - numpy
-- random
+- matplotlib
+- numpy
+- opencv
+- pandas
+- pywt
 
 ****
 
 ### HOW TO Use it :
-- User just need to download the file, and run the image_encryption_decryption.py, on local system.
-- After running a GUI window appears, where user needs to choose an image file using CHOOSE button on the top right corner.
-- After selecting the image, two images will appear on screen one on left side, which is original and one on write in which Encrypted Decrypted format will be shown.
-- Now user can start encryption and decryption using Encrypt and Decrypt button.
-- After editing user can also save the edited image to any location in local system using SAVE button.
-- Also there is a RESET button, clicking on which resets the edited image to original format.
-- Also there is exit button, clicking on which we get a exit dialog box asking the permission to exit.
+- User just need to download the file, and run the Diabetic_retinopathy_detection.ipynb on local system.
+- After that, the model will start with a animation.
+- After animation, a GUI window will open and its says model is being trained already.
+- then one can test the model using the fundus retina image of the patient.
+- Also, user will be able to detect the types of the DR which is present in the patient.
 
 ### Purpose :
-- This scripts helps us to easily encrypt any image for security purpose and can even decrypt also.
+- This scripts helps user to predict whether patient is having DR or not in a simple user friendly model.
 
 ### Compilation Steps :
-- Install tkinter, PIL, numpy, cv2, os, random
-- After that download the code file, and run image_encryption_decryption.py on local system.
-- Then the script will start running and user can explore it by encrypting and decrypting any image and saving it.
+- Install all the necessary library
+- After that download the code file, and run Diabetic_retinopathy_detection.ipynb on local system.
+- Then the script will start running and user can explore it by taking different patient retina fundus image and detect DR in it.
 
 ****
 
@@ -46,15 +44,6 @@
   <img width = 1000 src="Images/3.jpg" /><br>
   <img width = 1000 src="Images/4.jpg" /><br>
   <img width = 1000 src="Images/5.jpg" /><br>
-  <img width = 1000 src="Images/6.jpg" /><br>
-  <img width = 1000 src="Images/7.jpg" /><br>
-  <img width = 1000 src="Images/8.jpg" /><br>
-  <img width = 1000 src="Images/9.jpg" /><br>
-  <img width = 1000 src="Images/10.jpg" /><br>
-  <img width = 1000 src="Images/11.jpg" /><br>
 </p>
 
 ****
-
-### Name : 
-- Akash Ramanand Rajak
